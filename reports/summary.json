@@ -1,0 +1,78 @@
+{
+  "features_total": 100,
+  "real_features": 30,
+  "samples": 569,
+  "results": {
+    "none": {
+      "auc_mean": 0.9848,
+      "auc_std": 0.0085,
+      "n_features": 100.0,
+      "real_share": 0.3,
+      "noise_picked": null,
+      "stability": null
+    },
+    "anova_f": {
+      "auc_mean": 0.9883,
+      "auc_std": 0.0097,
+      "n_features": 10.0,
+      "real_share": 0.7,
+      "noise_picked": 0.0,
+      "stability": 0.9545
+    },
+    "mutual_info": {
+      "auc_mean": 0.9883,
+      "auc_std": 0.0098,
+      "n_features": 10.0,
+      "real_share": 0.7,
+      "noise_picked": 0.0,
+      "stability": 0.7679
+    },
+    "l1_logistic": {
+      "auc_mean": 0.9906,
+      "auc_std": 0.0069,
+      "n_features": 10.0,
+      "real_share": 0.7,
+      "noise_picked": 0.0,
+      "stability": 0.3912
+    },
+    "rfe_logistic": {
+      "auc_mean": 0.9899,
+      "auc_std": 0.006,
+      "n_features": 10.0,
+      "real_share": 0.7,
+      "noise_picked": 0.0,
+      "stability": 0.3147
+    },
+    "forest_importance": {
+      "auc_mean": 0.9894,
+      "auc_std": 0.0086,
+      "n_features": 10.0,
+      "real_share": 0.8,
+      "noise_picked": 0.0,
+      "stability": 0.8636
+    }
+  },
+  "score_vs_k": {
+    "anova_f": {
+      "2": 0.9777,
+      "5": 0.9879,
+      "10": 0.9883,
+      "20": 0.991,
+      "40": 0.994
+    },
+    "l1_logistic": {
+      "2": 0.9855,
+      "5": 0.9903,
+      "10": 0.9906,
+      "20": 0.9907,
+      "40": 0.9942
+    },
+    "forest_importance": {
+      "2": 0.974,
+      "5": 0.9878,
+      "10": 0.9894,
+      "20": 0.994,
+      "40": 0.9953
+    }
+  }
+}

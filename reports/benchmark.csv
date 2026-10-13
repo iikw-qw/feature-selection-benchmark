@@ -1,0 +1,7 @@
+,auc_mean,auc_std,n_features,real_share,noise_picked,stability
+none,0.9848,0.0085,100.0,0.3,,
+anova_f,0.9883,0.0097,10.0,0.7,0.0,0.9545
+mutual_info,0.9883,0.0098,10.0,0.7,0.0,0.7679
+l1_logistic,0.9906,0.0069,10.0,0.7,0.0,0.3912
+rfe_logistic,0.9899,0.006,10.0,0.7,0.0,0.3147
+forest_importance,0.9894,0.0086,10.0,0.8,0.0,0.8636
